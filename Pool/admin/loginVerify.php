@@ -16,7 +16,7 @@
         // Storing session data
         $_SESSION["isLogged"] = "1";
         
-        header('Location:' . 'adminpanel.php');
+        header('Location:' . '../central/foraservico.php');
         
         exit();
 
